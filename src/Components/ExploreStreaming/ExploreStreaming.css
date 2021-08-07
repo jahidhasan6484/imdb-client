@@ -1,0 +1,28 @@
+.explore_prime {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  width: 15%;
+  text-align: center;
+  padding: 0.5rem 2rem;
+  border-bottom: 0.2rem solid #f5c518;
+  margin-bottom: 1rem;
+}
+
+.explore_prime:hover {
+  color: #fff;
+  background: #0e1622;
+}
+
+.prime_subtitle {
+  color: #fff;
+}
+
+@media screen and (max-width: 321px) {
+  .explore_prime {
+    white-space: nowrap;
+    width: 45%;
+    margin-left: 1rem;
+  }
+}

@@ -1,0 +1,29 @@
+.watch_recommendations {
+  display: flex;
+  justify-content: flex-end;
+  color: #5799ef;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+
+@media screen and (max-width: 321px) {
+  .watch_recommendations {
+    justify-content: flex-start;
+  }
+
+  .slider_card img {
+    height: 200px;
+  }
+}
+
+.watch_sign_in {
+  color: #5799ef;
+}
+
+.watch_sign_in:hover {
+  text-decoration: underline;
+  color: #5799ef;
+}
+

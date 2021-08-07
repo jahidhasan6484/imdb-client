@@ -1,0 +1,43 @@
+.news_slider_card img {
+  width: 100px;
+}
+
+.news {
+  display: flex;
+  margin: 1rem;
+  color: #fff;
+}
+
+.news_details {
+  padding: 0.5rem 1rem;
+}
+
+.news_date {
+  font-size: 0.8rem;
+}
+
+.sub_news {
+  display: flex;
+  padding-top: 1rem;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+.sub_news::-webkit-scrollbar {
+  display: none;
+}
+
+.news_option {
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.25rem 1.25rem;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  margin-right: 1rem;
+}
+
+.news_option:hover {
+    background: #0e1622;
+}

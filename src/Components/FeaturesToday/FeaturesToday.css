@@ -1,0 +1,29 @@
+.featured_today img {
+  height: 400px;
+}
+
+.feature {
+  padding: 0.5rem 1.25rem;
+}
+
+.feature p {
+  padding: 1rem 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 769px) {
+  .featured_today img {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .featured_today img {
+    height: 200px;
+  }
+
+  .feature {
+    padding: 0.5rem 0.5rem;
+  }
+}

@@ -1,0 +1,17 @@
+.coming_details {
+    display: flex;
+    align-items: center;
+}
+
+.coming_info {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.date {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 70%;
+}

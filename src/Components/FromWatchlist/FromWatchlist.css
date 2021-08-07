@@ -1,0 +1,26 @@
+.from_watchlist{
+    margin-top: 5rem;
+    color:#fff;
+    text-align:center;
+}
+
+.fa-3x {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    margin-top: 3rem;
+    color:#000;
+    font-weight: 600;
+    font-size: 1rem;
+    background: #f5c518;
+    padding: 0.5rem 3rem;
+} 
+
+.btn:hover {
+    background: #cfa717;
+} 
+
+.from_watchlist p {
+    font-size: 1rgb(184, 148, 19)
+}

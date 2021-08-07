@@ -1,0 +1,18 @@
+.born_slider_images img {
+    border-radius: 50%;
+    height: 200px;
+}
+
+.born_slider_card {
+    cursor: pointer;
+    padding: 0rem 0.25rem;
+}
+.born_slider_card:hover {
+    opacity: 70%;
+}
+
+.birthday_details {
+    margin-top: 0.5rem;
+    color: #fff;
+    text-align: center;
+}

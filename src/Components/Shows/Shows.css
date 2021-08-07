@@ -1,0 +1,45 @@
+.list_info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .list {
+    display: flex;
+    color: #fff;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  
+  .list:hover {
+    color: rgb(175, 172, 172);
+  }
+  
+  
+  .list_number {
+    margin-right: 1rem;
+    border-right: 1px solid #f5c518;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    align-items: center;
+    height: 35px;
+  }
+  
+  .list_info {
+    margin-left: 1.5rem;
+  }
+  
+  .list_title {
+      letter-spacing: 1px;
+  }
+  
+  .list_views {
+    color: gray;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+  }
+  
+  .list_even {
+      background: #0c0e13;
+  }

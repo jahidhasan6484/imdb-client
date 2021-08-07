@@ -1,0 +1,26 @@
+.more_buttons {
+    display: flex;
+}
+.more_button{
+    color: #fff;
+    padding:  0.35rem 6rem;
+    margin-right: 2rem;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    font-size: 0.9rem;
+}
+.more_button:hover {
+    color: #fff;
+    background: #0e1622;
+}
+
+@media screen and (max-width: 321px) {
+    .more_buttons {
+        flex-direction: column;
+        white-space: nowrap;
+    }
+
+    .more_button{
+        margin-bottom: 0.5rem;
+    }
+}
